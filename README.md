@@ -2,16 +2,31 @@
 
 This project target 
 
-1-To make working with git easy for any one without undestending git 
-2- make git workwlow faster with less steps
+1- To make working with git easy for any one without undestending git concepts and workflow
+2- Make git workflow faster with less steps
 
 
-# dependency
+# Dependency
 Git cli 
 
 
 # Feature 
-init repo 
-create bug fix
-create feature
+repo   empty     init  : git init / git store credential / git set login pass / create dev qa  prod branches 
+repo   donwload        : git clone repo  / git store credential / git set login pass 
+
+repo create bugfix        : create bug branch / git chekcout branch
+
+repo save   bugfix local  : git add / git commit 
+repo save   bugfix server : git add / git commit / git push
+
+repo sync   bugfix prod   : git merge master to bug branch
+
+repo send   bugfix dev    : git merge dev to bugfix / git merge bug fix to dev 
+repo send   bugfix qa     : git merge qa to bugfix / git merge bug fix to qa
+repo send   bugfix prod   :  git merge prod to bugfix / git merge bug fix to prod
+
+repo undo   bugfix local  : git reset 
+repo undo   bugfix server : git revert / git push
+
+
 
