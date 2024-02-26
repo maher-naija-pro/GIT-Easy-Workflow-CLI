@@ -29,4 +29,19 @@ repo undo   bugfix local  : git reset
 repo undo   bugfix server : git revert / git push
 
 
+repo save   feature  local  : git add / git commit
+repo save   feature server : git add / git commit / git push
 
+repo sync   feature  prod   : git merge master to bug branch
+
+repo send   feature dev    : git merge dev to bugfix / git merge bug fix to dev
+repo send   feature qa     : git merge qa to bugfix / git merge bug fix to qa
+repo send   feature prod   :  git merge prod to bugfix / git merge bug fix to prod
+
+repo undo   feature local  : git reset
+repo undo   feature server : git revert / git push
+
+
+repo undo prod : git revert prod / git push 
+repo undo qa   : git revert qa /git push
+repo undo dev  : git revert dev /git push 
