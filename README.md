@@ -10,15 +10,20 @@ This project target
 Git cli 
 
 
-# Features
+# Features:
 
-## Manage repo
+
+### CLI auto complete
+
+Press tab tab to get suggestions
+
+### Manage repo
 repo   empty     init  : git init / git store credential / git set login pass / create dev qa  prod branches \
 repo   donwload        : git clone repo  / git store credential / git set login pass \
 
 
 
-## Manage bugfixs
+### Manage bugfixs
 repo create bugfix        : create bug branch / git chekcout branch\
 
 repo save   bugfix local  : git add / git commit \
@@ -33,7 +38,7 @@ repo send   bugfix prod   :  git merge prod to bugfix / git merge bug fix to pro
 repo undo   bugfix local  : git reset  \
 repo undo   bugfix server : git revert / git push \
 
-# Manage features
+### Manage features
 
 repo save   feature  local  : git add / git commit \
 repo save   feature server : git add / git commit / git push \
@@ -47,7 +52,7 @@ repo send   feature prod   :  git merge prod to bugfix / git merge bug fix to pr
 repo undo   feature local  : git reset \
 repo undo   feature server : git revert / git push \
 
-# Manage platforms
+### Manage platforms
 
 repo undo prod : git revert prod / git push  \
 repo undo qa   : git revert qa /git push \
