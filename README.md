@@ -57,3 +57,11 @@ repo undo   feature server : git revert / git push \
 repo undo prod : git revert prod / git push  \
 repo undo qa   : git revert qa /git push \
 repo undo dev  : git revert dev /git push  \
+
+
+#build
+go get -u github.com/spf13/cobra@latest
+go install github.com/spf13/cobra-cli@latest 
+
+
+
