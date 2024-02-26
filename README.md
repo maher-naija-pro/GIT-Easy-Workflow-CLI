@@ -2,8 +2,8 @@
 
 This project target 
 
-** 1- To make working with git easy for any one without undestending git concepts and workflow ** \
-** 2- Make git workflow faster with less steps **
+**1- To make working with git easy for any one without undestending git concepts and workflow** \
+**2- Make git workflow faster with less steps**
 
 
 # Dependency
